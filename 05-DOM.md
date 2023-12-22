@@ -4,6 +4,10 @@
 
 - document.querySelectorAll(): returns a static not live, NodeList representing a list of document's elements that match the specified group of selectors.
 
+- document.getElementsByClass("class_name") : Returns a list of element in HTMLCollection (CSS selectors are not support)
+
+- document.getElementById("id_name"): gets a element by an ID (CSS selectors are not support)
+
 ```javascript
 // Arrow function example
 const list = document.querySelectorAll("Any Selector");
