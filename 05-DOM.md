@@ -14,6 +14,7 @@ const list = document.querySelectorAll("Any Selector");
 
 list.forEach( item => {
     item.style.background = "red";
+    item.style.cssText = "Custom CSS";
 });
 
 //  Or
