@@ -21,11 +21,6 @@ Server runtime used to run JavaScript everywhere; used to run npm, webpack, babe
 <!-- Browser downloads JavaScript in parallel while HTML renders. Then defers execution of JavaScript until HTML rendering is completed. -->
 <script src="anyscript.js" defer></script>
 ```
-**Async**
-<img src="img/async-loading.png" />
-
-**Defer**
-<img src="img/defer-loading.png" />
 
 **Important**
 Loading JS file in footer is now anti-pattern, the best form is inside the head tag with [async|defer] parameters.
