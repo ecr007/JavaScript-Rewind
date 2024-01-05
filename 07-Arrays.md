@@ -25,6 +25,9 @@ cars.unshift("Ford","GMC");
 
 ```javascript
 cars.splice(2,1,"Mazda","Nissan");
+
+// To remove an element from an array
+cars.splice(index, 1);
 ```
 
 - .slice(intStart, intEnd) : returns a shallow copy of a **portion** of an array into a new array object selected from start to end. 
@@ -36,7 +39,8 @@ let chineseCars = ["Changan","BYD","NIO"];
 let allCars = cars.combine(chineseCars);
 ```
 
-- .indexOf("Value to find") : returns the first index at whitch a given element can be found in the array, or -1 it it is not present.
+- .indexOf("Value to find") : returns the **first** index at whitch a given element can be found in the array, or -1 it it is not present.
+- .lastIndexOf("Value to find") : returns the **last** index at whitch a given element can be found in the array.
 
 ```js
 let index = cars.indexOf("Honda"); // 0
@@ -84,5 +88,11 @@ let total = numbers.reduce((num_1, num_2) => {
 cars.some(car => car == "Honda"); // True, because honda is presents. 
 ```
 
+- .find(callbackFn) : returns the first elements in the array that satisfies the provided testing function. 
 
+- .reverse() : Reverses the elements of an array in place.
+
+- .sort() : Sorts the elements of an array in place. 
+
+- .join("separator") : Returns all elements of an array into a string. It returns empty string if array is empty.
 
