@@ -58,3 +58,24 @@ console.log(`
 // Response: $896,523.58
 
 ```
+
+## Callbacks
+Is a function that is passed as an argument to another funtion. 
+
+Traditional way of handling this
+
+```js
+// Callback in actions!!
+const start = () => console.log("Starting Process");
+const process = () => console.log("The process is running");
+const done = () => console.log("The process is done");
+
+const run = (s, p, d) => {
+    s();
+    p();
+    d();
+}
+
+run(start, process, done);
+
+```
