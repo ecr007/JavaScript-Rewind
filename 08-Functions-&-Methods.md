@@ -52,7 +52,7 @@ const formatter = (value, lang, currency) => {
 let num = 896523.584;
 
 console.log(`
-    Your anually salary is: ${formatter(num, "en-US", "USD")}
+    Your annually salary is: ${formatter(num, "en-US", "USD")}
 `);
 
 // Response: $896,523.58
