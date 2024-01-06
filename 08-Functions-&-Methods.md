@@ -26,7 +26,16 @@ Function expression is the best option because is inside a const, and it is loca
 (function(){
     // Run any functionality, it does not need callback.
 })();
+
+// Or
+
+const anonymousCallback = function (message) {
+  console.log("Anonymous Callback: " + message);
+};
+
 ```
+
+
 
 ## Important to see
 
@@ -77,5 +86,41 @@ const run = (s, p, d) => {
 }
 
 run(start, process, done);
+
+```
+
+## Callbacks with Promises
+
+Using promises is a more modern and structured way to handle asynchronous operations and advoid callback hell. 
+
+They have methods like ```then``` and ```catch``` to handle resolution or rejection of the promise.
+
+```js
+async function performAsyncOperation() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            const success = true;
+            
+            if (success) {
+                resolve("Operation completed successfully");
+            } else {
+                reject("Operation failed");
+            }
+        }, 1000);
+    });
+}
+
+async function handleAsyncOperation() {
+    try {
+        const result = await performAsyncOperation();
+        
+        console.log("Async operation successful: " + result);
+    } catch (error) {
+        console.error("Async operation failed: " + error);
+    }
+}
+
+// Using async/await
+handleAsyncOperation();
 
 ```
