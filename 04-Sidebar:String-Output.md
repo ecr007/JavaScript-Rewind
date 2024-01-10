@@ -15,3 +15,5 @@
 ```\```: Back Slash.
 ```=```: Single equal.
 ```=>```: Bigger than symbol. (Used to arrow function)
+```|```: Pipe symbol
+```&```: Ampersand

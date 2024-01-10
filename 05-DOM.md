@@ -102,3 +102,27 @@ main.append(list)
 </p>
 <!-- afterend -->
 ```
+
+## Basic Concept
+
+- Conditional IF ELSE statement.
+
+- Logical operator (>, >=, !=)
+
+
+**Looping Through Content**
+
+```js
+// Clasic For
+for(...){...}
+
+// For of loop and array
+for(const item of records){...}
+
+// ForEach
+
+// For In loop and objects
+// statement iterates over all enumerable string properties of an object (ignoring properties keyed by symbols), including inherited enumerable properties.
+// item returns 
+for(const item in records)
+```
