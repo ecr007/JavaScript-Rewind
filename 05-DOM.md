@@ -15,6 +15,7 @@ const list = document.querySelectorAll("Any Selector");
 list.forEach( item => {
     item.style.background = "red";
     item.style.cssText = "Custom CSS";
+    item.textContent = "Any Text";
 });
 
 //  Or
@@ -90,6 +91,14 @@ main.append(list)
 - Element.prepend(p1,p2, /* ..., */ pN) Method inserts a set of Node objects or string objects before the first child of the elements.
 
 - Element.insertAdjacentElement(position, element): Method of the element interface inserts a given element Node at a given position relative to the elements it is invoked upon. 
+
+**Interactions**
+
+- element.parentElement: Property of Node interface returns the DOM node's parent Element, or null if the node either has no parent, or its parent isn't a DOM Element.
+
+```js
+// element.parentElement.id or innerHtml
+```
 
 **Positions**
 
