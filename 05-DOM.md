@@ -81,6 +81,10 @@ list.setAttrinute("id", "ecr-main-list");
 
 const main = document.querySelector("#main");
 
+// Insert
+// You Can insert element inside another using innerHTML like this: .outerHTML method
+main.innerHTML = list.outerHTML;
+
 // Append
 main.append(list)
 ```
