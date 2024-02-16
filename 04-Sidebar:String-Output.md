@@ -2,18 +2,18 @@
 
 <code>`${variable}`</code>: Naming Backticks
 
-```{}```: Curly Brackets Or Braces
-```{```: Open Curly Braket or Left Brace
-```}```: Close Curly Braket or Right Brace
-```=```: Assignment symbol.
-```>```: Larger Than.
-```<```: Smaller Than.
-```>=```: Larger Than or Equal to.
-```<=```: Smaller Than or Equal to.
-```!=```: Not Equal to.
-```/```: Forward Slash.
-```\```: Back Slash.
-```=```: Single equal.
-```=>```: Bigger than symbol. (Used to arrow function)
-```|```: Pipe symbol
-```&```: Ampersand
+```{}```: Curly Brackets Or Braces<br>
+```{```: Open Curly Braket or Left Brace<br>
+```}```: Close Curly Braket or Right Brace<br>
+```=```: Assignment symbol.<br>
+```>```: Larger Than.<br>
+```<```: Smaller Than.<br>
+```>=```: Larger Than or Equal to.<br>
+```<=```: Smaller Than or Equal to.<br>
+```!=```: Not Equal to.<br>
+```/```: Forward Slash.<br>
+```\```: Back Slash.<br>
+```=```: Single equal.<br>
+```=>```: Bigger than symbol. (Used to arrow function)<br>
+```|```: Pipe symbol<br>
+```&```: Ampersand<br>
