@@ -9,7 +9,7 @@ const: Declares block-scoped local variable. The value of a constant can't be ch
 ## Data type
 Use ```typeof``` to get the type of an object.
 
-```
+```js
 const Car{
     branch: "Honda",
     model: "Civic",
