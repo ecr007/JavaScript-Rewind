@@ -1,6 +1,6 @@
 # Sidebar String Output
 
-<code>`${variable}`</code>: Naming Backticks
+`${variable}`: Naming Backticks
 
 ```{}```: Curly Brackets Or Braces<br>
 ```{```: Open Curly Braket or Left Brace<br>
